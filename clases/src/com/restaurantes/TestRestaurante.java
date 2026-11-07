@@ -6,14 +6,14 @@ public class TestRestaurante {
 		Restaurante v;
 		v = new Restaurante();
 		System.out.println("=========Restaurante 1 creado=======");
-		System.out.println("restaurante :"+v.direccion);
-		System.out.println("restaurante :"+v.nombre);
-		System.out.println("restaurante :"+v.calificacion);
+		System.out.println("nombre :"+v.nombre);
+		System.out.println("direccione :"+v.direccion);
+		System.out.println("calificacion :"+v.calificacion);
 		
 		System.out.println("=========Restaurante 2 creado=======");
-		System.out.println("restaurante :"+v.direccion);
-		System.out.println("restaurante :"+v.nombre);
-		System.out.println("restaurante :"+v.calificacion);
+		System.out.println("nombre :"+v.nombre);
+		System.out.println("direccione :"+v.direccion);
+		System.out.println("calificacion :"+v.calificacion);
 		
 		v.nombre="pollo campero";
 		v.direccion="avenida 8 de octubre";
@@ -21,9 +21,9 @@ public class TestRestaurante {
 	
 		
 		System.out.println("=========Restaurante 1 asignado=======");
-		System.out.println("restaurante :"+v.nombre);
-		System.out.println("restaurante :"+v.direccion);
-		System.out.println("restaurante :"+v.calificacion);
+		System.out.println("nombre :"+v.nombre);
+		System.out.println("direccione :"+v.direccion);
+		System.out.println("calificacion :"+v.calificacion);
 		
 		
 		v.nombre="rukito";
@@ -32,9 +32,9 @@ public class TestRestaurante {
 	
 		
 		System.out.println("=========Restaurante 2 asignado=======");
-		System.out.println("restaurante :"+v.nombre);
-		System.out.println("restaurante :"+v.direccion);
-		System.out.println("restaurante :"+v.calificacion);
+		System.out.println("nombre :"+v.nombre);
+		System.out.println("direccione :"+v.direccion);
+		System.out.println("calificacion :"+v.calificacion);
 		
 		
 	}
