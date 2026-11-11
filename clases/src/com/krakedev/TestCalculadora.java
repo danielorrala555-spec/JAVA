@@ -20,6 +20,11 @@ public class TestCalculadora {
 		d1 = c1.Diovidir(25, 5);
 		System.out.println("resultado divicion :"+ d1);
 		
+		double p1;
+		p1 =c1.Promedio(40, 20, 50);
+		System.out.printf("resultado promedio : %.2f%n", p1);
+		
+		
 		
 
 	}
