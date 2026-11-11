@@ -29,6 +29,11 @@ public class TestCalculadora {
 		p1 =c1.Promedio(40, 20, 50);
 		System.out.printf("resultado promedio : %.2f%n", p1);
 		
+		System.out.println("==============MENSAJE==============");
+		
+		Mensaje m2 = new Mensaje();
+		m2.MostrarResultado();
+		
 		
 		
 
