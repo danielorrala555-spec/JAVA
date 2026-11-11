@@ -1,0 +1,18 @@
+package com.krakedev;
+
+public class Calculadora {
+	public double Sumar(int a, int b) {
+		
+		double resultado;
+	resultado = a + b ;
+	return resultado;
+	}
+	
+	public int restar(int a, int b) {
+		
+		int resultado;
+		resultado = a - b;
+		return resultado;
+	}
+
+}

@@ -27,7 +27,7 @@ public class TestRestaurante {
 		
 		
 		v.nombre="rukito";
-		v.direccion="diagola mol del sol";
+		v.direccion="diagonal mol del sol";
 		v.calificacion=9.5f;
 	
 		
