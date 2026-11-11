@@ -1,7 +1,7 @@
 package com.krakedev;
 
 public class Calculadora {
-	public double Sumar(int a, int b) {
+	public double Sumar(double a, double b) {
 		
 		double resultado;
 	resultado = a + b ;
@@ -14,5 +14,12 @@ public class Calculadora {
 		resultado = a - b;
 		return resultado;
 	}
+public double Multiplicar(double a, double b) {
+		
+		double resultado;
+	resultado = a * b ;
+	return resultado;
+	}
+	
 
 }
