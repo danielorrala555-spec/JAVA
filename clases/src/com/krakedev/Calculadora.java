@@ -20,6 +20,13 @@ public double Multiplicar(double a, double b) {
 	resultado = a * b ;
 	return resultado;
 	}
+
+public double Diovidir(double a, double b) {
+	
+	double resultado;
+resultado = a / b ;
+return resultado;
+}
 	
 
 }

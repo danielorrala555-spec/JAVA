@@ -16,6 +16,11 @@ public class TestCalculadora {
 		m1 = c1.Multiplicar(5, 7);
 		System.out.println("resultado multiplicacion :"+ m1);
 		
+		double d1;
+		d1 = c1.Diovidir(25, 5);
+		System.out.println("resultado divicion :"+ d1);
+		
+		
 
 	}
 
