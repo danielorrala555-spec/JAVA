@@ -21,10 +21,9 @@ public class TestRectangulo {
 		
 		System.out.println("resultado 2 del area es :"+ ResultadoArea2);
 		Rectangulo p1 =new Rectangulo();
-		p1.Base =20;
-		p1.Altura = 35;
 		
-		double  ResultadoPereimetro = p1.CalculaPerimetro();
+		
+		double  ResultadoPereimetro = r2.CalculaPerimetro();
 		System.out.println("resultado 2 del perimtro es :"+ ResultadoPereimetro);
 		
 		
