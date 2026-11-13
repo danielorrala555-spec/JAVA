@@ -18,10 +18,7 @@ public class TestRectangulo {
 		r2.Base = 8;
 		
 		int ResultadoArea2 = r2.CalcularArea();
-		
 		System.out.println("resultado 2 del area es :"+ ResultadoArea2);
-		Rectangulo p1 =new Rectangulo();
-		
 		
 		double  ResultadoPereimetro = r2.CalculaPerimetro();
 		System.out.println("resultado 2 del perimtro es :"+ ResultadoPereimetro);
